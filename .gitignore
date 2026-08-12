@@ -219,3 +219,5 @@ __marimo__/
 
 
 data/faiss_index
+
+logs/*
