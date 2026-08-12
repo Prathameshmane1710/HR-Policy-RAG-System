@@ -73,7 +73,7 @@ EXAMPLES
 
 def _check_safety(text:str,policy:str) -> tuple[bool,str]:
     """Return (is_safe,reason) for the given text under the given policy"""
-    response =  _guard_llm.invoke(
+    response = _guard_llm.invoke(
         [
             {"role":"system","content":policy},
             {"role":"user","content":text},
